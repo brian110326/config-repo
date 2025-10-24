@@ -1,7 +1,3 @@
-jwt:
-  access:
-    secret: "9uMDsQmC38C8ImGMeiRC2CDHhP5eUoq3NThQIfiy6zU="
-    expiration: 1h # 한시간
-  refresh:
-    secret: "BQ5Np0TZqkzaE8FAKWu3JtvbAXoJV+Qz+nrvQt9QILQ="
-    expiration: 7d # 일주일
+token:
+  expiration_time: 86400000
+  secret: my-very-very-secret-key-1234567890abcd-movie-12345
